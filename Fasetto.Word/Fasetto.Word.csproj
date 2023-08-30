@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\Logo\icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -55,6 +58,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -95,7 +100,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\Logo\" />
+    <Resource Include="Images\Logo\text-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Logo\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Logo\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Logo\logo-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Logo\Combined.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
