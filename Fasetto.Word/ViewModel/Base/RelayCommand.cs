@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace Fasetto.Word
+namespace Fasetto.Word.Base
 {
     /// <summary>
     /// A basic command that runs an Action

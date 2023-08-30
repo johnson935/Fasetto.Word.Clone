@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Threading.Tasks;
 
-namespace Fasetto.Word
+namespace Fasetto.Word.Base
 {
     /// <summary>
     /// A base view model that fires Property Changed events as needed
