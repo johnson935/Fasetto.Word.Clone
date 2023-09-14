@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Fasetto.Word.Controls
+namespace Fasetto.Word.Controls.Chat
 {
     /// <summary>
-    /// Interaction logic for ChatListItemControl.xaml
+    /// Interaction logic for ChatListControl.xaml
     /// </summary>
-    public partial class ChatListItemControl : UserControl
+    public partial class ChatListControl : UserControl
     {
-        public ChatListItemControl()
+        public ChatListControl()
         {
             InitializeComponent();
         }

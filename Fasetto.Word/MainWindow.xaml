@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Fasetto.Word"
         xmlns:controls="clr-namespace:Fasetto.Word.Controls"
+        xmlns:controlsChat="clr-namespace:Fasetto.Word.Controls.Chat"
         xmlns:converters="clr-namespace:Fasetto.Word.ValueConverters"
         mc:Ignorable="d"
         x:Name="AppWindow"
@@ -130,7 +131,7 @@
             </Grid.Background>
             <Frame Grid.Column="1" x:Name="MainFrame" Content="{Binding CurrentPage, Converter={converters:ApplicationPageValueConverter}}" />
             <controls:SideMenuControl>
-
+                <controlsChat:ChatListControl />
             </controls:SideMenuControl>
         </Grid>
     </Border>
